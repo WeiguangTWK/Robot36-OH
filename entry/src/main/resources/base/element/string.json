@@ -1,0 +1,172 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "Robot36 OH entry module"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "Robot36 OH main ability"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "Robot36 OH"
+    },
+    {
+      "name": "stage0_title",
+      "value": "Robot36 OH"
+    },
+    {
+      "name": "stage0_status_prefix",
+      "value": "Native state:"
+    },
+    {
+      "name": "stage0_redraw",
+      "value": "Redraw Placeholder"
+    },
+    {
+      "name": "stage0_sync",
+      "value": "Sync Label"
+    },
+    {
+      "name": "stage2_start",
+      "value": "Start Capture"
+    },
+    {
+      "name": "stage2_stop",
+      "value": "Stop Capture"
+    },
+    {
+      "name": "mode_auto",
+      "value": "Auto"
+    },
+    {
+      "name": "mode_robot36",
+      "value": "Robot36"
+    },
+    {
+      "name": "mode_raw",
+      "value": "Raw"
+    },
+    {
+      "name": "mode_robot72",
+      "value": "Robot72"
+    },
+    {
+      "name": "mode_martin1",
+      "value": "Martin1"
+    },
+    {
+      "name": "mode_martin2",
+      "value": "Martin2"
+    },
+    {
+      "name": "mode_scottie1",
+      "value": "Scottie1"
+    },
+    {
+      "name": "mode_scottie2",
+      "value": "Scottie2"
+    },
+    {
+      "name": "mode_scottiedx",
+      "value": "ScottieDX"
+    },
+    {
+      "name": "mode_wraase180",
+      "value": "Wraase180"
+    },
+    {
+      "name": "mode_hffax",
+      "value": "HFFax"
+    },
+    {
+      "name": "mode_pd50",
+      "value": "PD50"
+    },
+    {
+      "name": "mode_pd120",
+      "value": "PD120"
+    },
+    {
+      "name": "mode_pd180",
+      "value": "PD180"
+    },
+    {
+      "name": "mode_pd240",
+      "value": "PD240"
+    },
+    {
+      "name": "mode_pd290",
+      "value": "PD290"
+    },
+    {
+      "name": "save_image",
+      "value": "Save"
+    },
+    {
+      "name": "show_settings",
+      "value": "Settings"
+    },
+    {
+      "name": "hide_settings",
+      "value": "Close"
+    },
+    {
+      "name": "settings_title",
+      "value": "Receiver Settings"
+    },
+    {
+      "name": "auto_save",
+      "value": "Auto Save"
+    },
+    {
+      "name": "show_debug",
+      "value": "Show Native Status"
+    },
+    {
+      "name": "current_mode",
+      "value": "Current Mode"
+    },
+    {
+      "name": "last_result",
+      "value": "Last Result"
+    },
+    {
+      "name": "mode_tip",
+      "value": "Tip: 轻触“当前模式”实现手动切换"
+    },
+    {
+      "name": "about_icon",
+      "value": "i"
+    },
+    {
+      "name": "about_title",
+      "value": "About"
+    },
+    {
+      "name": "about_back",
+      "value": "Back"
+    },
+    {
+      "name": "about_summary",
+      "value": "A native HarmonyOS app that converts SSTV audio into images."
+    },
+    {
+      "name": "about_origin_title",
+      "value": "Project"
+    },
+    {
+      "name": "about_origin_body",
+      "value": "Ported by WeiguangTWK (BG7QWH) from xdsopl/robot36."
+    },
+    {
+      "name": "about_repo_label",
+      "value": "WeiguangTWK/Robot36-OH"
+    },
+    {
+      "name": "microphone_permission_reason",
+      "value": "Microphone access is required to receive SSTV audio."
+    }
+  ]
+}

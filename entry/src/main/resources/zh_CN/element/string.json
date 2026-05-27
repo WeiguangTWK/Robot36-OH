@@ -1,0 +1,172 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "Robot36 OH 鸿蒙入口模块"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "Robot36 OH 主界面"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "Robot36 OH"
+    },
+    {
+      "name": "stage0_title",
+      "value": "Robot36 OH"
+    },
+    {
+      "name": "stage0_status_prefix",
+      "value": "Native 状态："
+    },
+    {
+      "name": "stage0_redraw",
+      "value": "重绘占位画面"
+    },
+    {
+      "name": "stage0_sync",
+      "value": "同步标签"
+    },
+    {
+      "name": "stage2_start",
+      "value": "开始接收"
+    },
+    {
+      "name": "stage2_stop",
+      "value": "停止接收"
+    },
+    {
+      "name": "mode_auto",
+      "value": "自动"
+    },
+    {
+      "name": "mode_robot36",
+      "value": "Robot36"
+    },
+    {
+      "name": "mode_raw",
+      "value": "原始"
+    },
+    {
+      "name": "mode_robot72",
+      "value": "Robot72"
+    },
+    {
+      "name": "mode_martin1",
+      "value": "Martin1"
+    },
+    {
+      "name": "mode_martin2",
+      "value": "Martin2"
+    },
+    {
+      "name": "mode_scottie1",
+      "value": "Scottie1"
+    },
+    {
+      "name": "mode_scottie2",
+      "value": "Scottie2"
+    },
+    {
+      "name": "mode_scottiedx",
+      "value": "ScottieDX"
+    },
+    {
+      "name": "mode_wraase180",
+      "value": "Wraase180"
+    },
+    {
+      "name": "mode_hffax",
+      "value": "HFFax"
+    },
+    {
+      "name": "mode_pd50",
+      "value": "PD50"
+    },
+    {
+      "name": "mode_pd120",
+      "value": "PD120"
+    },
+    {
+      "name": "mode_pd180",
+      "value": "PD180"
+    },
+    {
+      "name": "mode_pd240",
+      "value": "PD240"
+    },
+    {
+      "name": "mode_pd290",
+      "value": "PD290"
+    },
+    {
+      "name": "save_image",
+      "value": "保存"
+    },
+    {
+      "name": "show_settings",
+      "value": "设置"
+    },
+    {
+      "name": "hide_settings",
+      "value": "关闭"
+    },
+    {
+      "name": "settings_title",
+      "value": "接收设置"
+    },
+    {
+      "name": "auto_save",
+      "value": "自动保存"
+    },
+    {
+      "name": "show_debug",
+      "value": "显示 Native 状态"
+    },
+    {
+      "name": "current_mode",
+      "value": "当前模式"
+    },
+    {
+      "name": "last_result",
+      "value": "最近结果"
+    },
+    {
+      "name": "mode_tip",
+      "value": "提示：轻触“当前模式”可手动切换"
+    },
+    {
+      "name": "about_icon",
+      "value": "i"
+    },
+    {
+      "name": "about_title",
+      "value": "关于"
+    },
+    {
+      "name": "about_back",
+      "value": "返回"
+    },
+    {
+      "name": "about_summary",
+      "value": "一个将SSTV音频转换为图片的HarmonyOS原生应用。"
+    },
+    {
+      "name": "about_origin_title",
+      "value": "项目说明"
+    },
+    {
+      "name": "about_origin_body",
+      "value": "由WeiguangTWK (BG7QWH) 移植自 xdsopl/robot36。"
+    },
+    {
+      "name": "about_repo_label",
+      "value": "WeiguangTWK/Robot36-OH"
+    },
+    {
+      "name": "microphone_permission_reason",
+      "value": "接收 SSTV 音频需要使用麦克风权限。"
+    }
+  ]
+}
