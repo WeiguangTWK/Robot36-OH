@@ -1,9 +1,9 @@
 {
   "app": {
     "bundleName": "xdsopl.nhsystems.robot36",
-    "vendor": "example",
-    "versionCode": 1000000,
-    "versionName": "1.0.0",
+    "vendor": "NH Systems",
+    "versionCode": 1,
+    "versionName": "1.0.0.26w22a",
     "buildVersion": "1",
     "icon": "$media:launcher_icon",
     "label": "$string:app_name"
