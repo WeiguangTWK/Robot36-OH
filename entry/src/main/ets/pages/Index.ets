@@ -56,6 +56,7 @@ struct Index {
   private pollTimer?: number;
   private lastImageCount: number = 0;
   private saveInFlight: boolean = false;
+  private surfaceInitialized: boolean = false;
 
   private getHostAbilityContext(): common.UIAbilityContext {
     return this.getUIContext().getHostContext() as common.UIAbilityContext;
@@ -357,6 +358,7 @@ struct Index {
     .height('100%')
     .alignItems(HorizontalAlign.Start)
     .backgroundColor('#E9EEF4')
+    .zIndex(1)
   }
 
   @Builder
@@ -394,19 +396,22 @@ struct Index {
           .onLoad((xComponentContext) => {
             this.xComponentContext = xComponentContext as XComponentContext;
             this.xComponentContext.setDebugLabel(this.debugLabel);
-            this.xComponentContext.drawTestFrame();
-            this.audioCaptureService = new AudioCaptureService(this.getHostAbilityContext(), this.xComponentContext);
-            this.startPolling();
-            this.syncNativeState();
-            void this.startCapture();
-            void this.audioCaptureService.resumeFromBackground().then((resumed: boolean) => {
-              if (resumed) {
-                this.statusError = '';
-              }
+            if (!this.surfaceInitialized) {
+              this.surfaceInitialized = true;
+              this.xComponentContext.drawTestFrame();
+              this.audioCaptureService = new AudioCaptureService(this.getHostAbilityContext(), this.xComponentContext);
+              this.startPolling();
               this.syncNativeState();
-            }).catch((err: Error) => {
-              this.statusError = `resume failed: ${JSON.stringify(err)}`;
-            });
+              void this.startCapture();
+              void this.audioCaptureService.resumeFromBackground().then((resumed: boolean) => {
+                if (resumed) {
+                  this.statusError = '';
+                }
+                this.syncNativeState();
+              }).catch((err: Error) => {
+                this.statusError = `resume failed: ${JSON.stringify(err)}`;
+              });
+            }
           })
           .backgroundColor('#0E1116')
           .borderRadius(24)
@@ -539,10 +544,13 @@ struct Index {
   }
 
   build() {
-    if (this.showingAbout) {
-      this.buildAboutPage();
-    } else {
+    Stack() {
       this.buildHomePage();
+      if (this.showingAbout) {
+        this.buildAboutPage();
+      }
     }
+    .width('100%')
+    .height('100%')
   }
 }
