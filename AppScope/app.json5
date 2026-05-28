@@ -3,7 +3,7 @@
     "bundleName": "xdsopl.nhsystems.robot36",
     "vendor": "NH Systems",
     "versionCode": 1,
-    "versionName": "1.0.0.26w22a",
+    "versionName": "1.0.0.26w22b",
     "buildVersion": "1",
     "icon": "$media:launcher_icon",
     "label": "$string:app_name"
